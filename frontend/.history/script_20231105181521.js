@@ -1,23 +1,5 @@
 console.log('script.js loaded')
 
-// 根据 id 分类菜品
-function categorizeDishes(dish) {
-  const idPrefix = dish.id.toString()[0]
-  switch (idPrefix) {
-    case '1':
-      return 'entree'
-    case '2':
-      return 'dessert'
-    case '3':
-      return 'plat-chaud'
-    case '4':
-    case '5':
-      return 'pizzas'
-    default:
-      return 'other'
-  }
-}
-
 // 将菜品添加到页面中
 function displayDishes(dishes, category = 'all') {
   console.log(`Displaying dishes for category: ${category}`)
@@ -56,7 +38,7 @@ document.querySelectorAll('.category-btn').forEach((button) => {
 })
 
 function fetchMenuData(category) {
-  fetch('http://localhost:3000/api/menu')
+  fetch('/api/menu')
     .then((response) => {
       if (!response.ok) {
         throw new Error('Network response was not ok')

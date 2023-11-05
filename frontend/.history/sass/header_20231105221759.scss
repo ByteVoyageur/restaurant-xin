@@ -1,0 +1,26 @@
+.category-buttons {
+  display: flex;
+  flex-direction: row; // Use flexbox for layout
+  flex-wrap: nowrap; // Prevent wrapping of items
+  overflow-x: auto; // Allow horizontal scrolling
+  -webkit-overflow-scrolling: touch; // Enable momentum scrolling on iOS
+  gap: 10px; // Space between buttons
+
+  .category-btn {
+    flex: 0 0 auto; // Don't grow, don't shrink, and base the size on the width property
+    padding: 10px 20px; // Padding inside the buttons
+    font-size: 16px; // Text size inside the buttons
+    background-color: #f2f2f2; // Background color of the buttons
+    border: 1px solid #ddd; // Border color of the buttons
+    border-radius: 5px; // Rounded corners for the buttons
+
+    &:hover {
+      background-color: #e7e7e7; // Slightly darker background on hover
+    }
+  }
+
+  // Add a media query for larger screens if needed
+  @media (min-width: 768px) {
+    justify-content: center; // Center the buttons on larger screens
+  }
+}
