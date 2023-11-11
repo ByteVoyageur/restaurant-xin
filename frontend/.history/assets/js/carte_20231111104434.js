@@ -11,27 +11,18 @@ export function displayMenuItems(menuData, category) {
       const menuItemDiv = document.createElement('article')
       menuItemDiv.className = 'menu-item'
 
-      // 图片容器
-      const imageContainer = document.createElement('div')
-      imageContainer.className = 'menu-item-image-container'
-
       // 菜品图片
       const img = document.createElement('img')
       img.src = item.img
       img.alt = item.name
       img.className = 'menu-item-image'
-      imageContainer.appendChild(img)
-      menuItemDiv.appendChild(imageContainer)
-
-      // 文本内容容器
-      const textContainer = document.createElement('div')
-      textContainer.className = 'menu-item-text-container'
+      menuItemDiv.appendChild(img)
 
       // 菜品名称
       const name = document.createElement('h4')
       name.textContent = item.name
       name.className = 'menu-item-name'
-      textContainer.appendChild(name)
+      menuItemDiv.appendChild(name)
 
       // 价格和大小
       if (item.sizes) {
@@ -41,24 +32,23 @@ export function displayMenuItems(menuData, category) {
           sizeDiv.textContent = `${size}: $${item.sizes[size].price}`
           sizesDiv.appendChild(sizeDiv)
         })
-        textContainer.appendChild(sizesDiv)
+        menuItemDiv.appendChild(sizesDiv)
       }
 
       // 材料（ingredients）
       if (item.ingredients) {
         const ingredients = document.createElement('p')
-        ingredients.textContent = item.ingredients.join(', ')
+        ingredients.textContent = `Ingredients: ${item.ingredients.join(', ')}`
         ingredients.className = 'menu-item-ingredients'
-        textContainer.appendChild(ingredients)
+        menuItemDiv.appendChild(ingredients)
       }
 
       // 描述
       const description = document.createElement('p')
       description.textContent = item.description
       description.className = 'menu-item-description'
-      textContainer.appendChild(description)
+      menuItemDiv.appendChild(description)
 
-      menuItemDiv.appendChild(textContainer)
       menuItemsDiv.appendChild(menuItemDiv)
     })
 }

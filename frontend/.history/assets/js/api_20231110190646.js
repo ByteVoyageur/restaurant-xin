@@ -1,5 +1,5 @@
 // api.js
-const apiURL = 'http://15.188.50.31:3000/api'
+const apiURL = 'http://localhost:3000/api'
 
 export function fetchMenuData() {
   return fetch(`${apiURL}/menu`)

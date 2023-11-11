@@ -535,7 +535,7 @@
   },
   {
     "baseId": 40101,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Jambon",
     "description": "",
     "sizes": {
@@ -564,7 +564,7 @@
   },
   {
     "baseId": 40102,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Reine",
     "description": "",
     "sizes": {
@@ -592,7 +592,7 @@
   },
   {
     "baseId": 40103,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Romaine",
     "description": "",
     "sizes": {
@@ -621,7 +621,7 @@
   },
   {
     "baseId": 40104,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Fruits de Mer",
     "description": "",
     "sizes": {
@@ -650,7 +650,7 @@
   },
   {
     "baseId": 40105,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Campionne",
     "description": "",
     "sizes": {
@@ -679,7 +679,7 @@
   },
   {
     "baseId": 40106,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Kebab",
     "description": "",
     "sizes": {
@@ -708,7 +708,7 @@
   },
   {
     "baseId": 40107,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Campagnarde",
     "description": "",
     "sizes": {
@@ -737,7 +737,7 @@
   },
   {
     "baseId": 40108,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Jambon",
     "description": "",
     "sizes": {
@@ -766,7 +766,7 @@
   },
   {
     "baseId": 40109,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Fermière",
     "description": "",
     "sizes": {
@@ -795,7 +795,7 @@
   },
   {
     "baseId": 40110,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Chèvre miel",
     "description": "",
     "sizes": {
@@ -824,7 +824,7 @@
   },
   {
     "baseId": 40111,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Merguez",
     "description": "",
     "sizes": {
@@ -853,7 +853,7 @@
   },
   {
     "baseId": 40112,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Jambon",
     "description": "",
     "sizes": {
@@ -882,7 +882,7 @@
   },
   {
     "baseId": 40113,
-    "category": "Pizzas classiques",
+    "category": "Classiques",
     "name": "Jambon",
     "description": "",
     "sizes": {
@@ -911,7 +911,7 @@
   },
   {
     "baseId": 40201,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Anchoyade",
     "description": "",
     "sizes": {
@@ -941,7 +941,7 @@
 
   {
     "baseId": 40202,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Calabraise",
     "description": "",
     "sizes": {
@@ -970,7 +970,7 @@
   },
   {
     "baseId": 40203,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "4 saisons",
     "description": "",
     "sizes": {
@@ -1007,7 +1007,7 @@
   },
   {
     "baseId": 40204,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Royale",
     "description": "",
     "sizes": {
@@ -1036,7 +1036,7 @@
   },
   {
     "baseId": 40205,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Milanaise",
     "description": "",
     "sizes": {
@@ -1072,7 +1072,7 @@
   },
   {
     "baseId": 40206,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "ACalzone",
     "description": "chausson",
     "sizes": {
@@ -1101,7 +1101,7 @@
   },
   {
     "baseId": 40208,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Cantal",
     "description": "",
     "sizes": {
@@ -1137,7 +1137,7 @@
   },
   {
     "baseId": 40209,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Catalane",
     "description": "",
     "sizes": {
@@ -1166,7 +1166,7 @@
   },
   {
     "baseId": 40210,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Savoyarde",
     "description": "",
     "sizes": {
@@ -1201,7 +1201,7 @@
   },
   {
     "baseId": 40211,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Asiatique",
     "description": "",
     "sizes": {
@@ -1237,7 +1237,7 @@
   },
   {
     "baseId": 40212,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Végétarienne",
     "description": "",
     "sizes": {
@@ -1272,7 +1272,7 @@
   },
   {
     "baseId": 40213,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Capri",
     "description": "",
     "sizes": {
@@ -1307,7 +1307,7 @@
   },
   {
     "baseId": 40301,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Margherita",
     "description": "",
     "sizes": {
@@ -1336,7 +1336,7 @@
   },
   {
     "baseId": 40302,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "4 formages",
     "description": "",
     "sizes": {
@@ -1365,7 +1365,7 @@
   },
   {
     "baseId": 40303,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Tartiflette",
     "description": "",
     "sizes": {
@@ -1401,7 +1401,7 @@
   },
   {
     "baseId": 40304,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Hawaïenne",
     "description": "",
     "sizes": {
@@ -1430,7 +1430,7 @@
   },
   {
     "baseId": 40305,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Tarandaise",
     "description": "",
     "sizes": {
@@ -1466,7 +1466,7 @@
   },
   {
     "baseId": 40306,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "saumon fumé",
     "description": "",
     "sizes": {
@@ -1495,7 +1495,7 @@
   },
   {
     "baseId": 40307,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Texane",
     "description": "",
     "sizes": {
@@ -1531,7 +1531,7 @@
   },
   {
     "baseId": 40308,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Raclette",
     "description": "",
     "sizes": {
@@ -1566,7 +1566,7 @@
   },
   {
     "baseId": 40309,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "Montagnarde",
     "description": "",
     "sizes": {
@@ -1602,7 +1602,7 @@
   },
   {
     "baseId": 40310,
-    "category": "Pizzas spéciales",
+    "category": "Spéciales",
     "name": "",
     "description": "",
     "sizes": {
@@ -1631,7 +1631,7 @@
   },
   {
     "baseId": 40401,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Valentina",
     "description": "",
     "sizes": {
@@ -1667,7 +1667,7 @@
   },
   {
     "baseId": 40402,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Pétoncle",
     "description": "",
     "sizes": {
@@ -1696,7 +1696,7 @@
   },
   {
     "baseId": 40403,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Toscane",
     "description": "",
     "sizes": {
@@ -1725,7 +1725,7 @@
   },
   {
     "baseId": 40404,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Magret",
     "description": "",
     "sizes": {
@@ -1754,7 +1754,7 @@
   },
   {
     "baseId": 40405,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Pyrénéenne",
     "description": "",
     "sizes": {
@@ -1783,7 +1783,7 @@
   },
   {
     "baseId": 40406,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Vénitienne",
     "description": "",
     "sizes": {
@@ -1819,7 +1819,7 @@
   },
   {
     "baseId": 40407,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "",
     "description": "",
     "sizes": {
@@ -1848,7 +1848,7 @@
   },
   {
     "baseId": 40408,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Gold",
     "description": "",
     "sizes": {
@@ -1877,7 +1877,7 @@
   },
   {
     "baseId": 40409,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Pacifique",
     "description": "",
     "sizes": {
@@ -1912,7 +1912,7 @@
   },
   {
     "baseId": 40410,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Verde",
     "description": "",
     "sizes": {
@@ -1941,7 +1941,7 @@
   },
   {
     "baseId": 40411,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Sicilienne",
     "description": "",
     "sizes": {
@@ -1976,7 +1976,7 @@
   },
   {
     "baseId": 40412,
-    "category": "Pizzas courmandes",
+    "category": "Courmandes",
     "name": "Burrata",
     "description": "",
     "sizes": {
@@ -2498,7 +2498,7 @@
     "price": 1.5,
     "weight": 150,
     "selected": false,
-    "img": "http://15.188.50.31/backend/img/boissons/sirop.png",
+    "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png",
     "options": [],
     "tags": [],
     "ingredients": ["menthe", "grenadine", "fraise"],
@@ -2509,7 +2509,7 @@
   },
   {
     "baseId": 60102,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Jus d'Orange",
     "description": "25cl",
     "price": 2.0,
@@ -2526,7 +2526,7 @@
   },
   {
     "baseId": 60103,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Jus de Pomme",
     "description": "25cl",
     "price": 2.0,
@@ -2543,7 +2543,7 @@
   },
   {
     "baseId": 60104,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Coca-cola zéro",
     "description": "33cl",
     "price": 2.0,
@@ -2560,7 +2560,7 @@
   },
   {
     "baseId": 60105,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Cola-cola",
     "description": "bouteille 33cl",
     "price": 3.0,
@@ -2577,7 +2577,7 @@
   },
   {
     "baseId": 60106,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Ice-tea pêche",
     "description": "33cl",
     "price": 2.0,
@@ -2594,7 +2594,7 @@
   },
   {
     "baseId": 60107,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Perrier",
     "description": "33cl",
     "price": 2.0,
@@ -2611,7 +2611,7 @@
   },
   {
     "baseId": 60108,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Fanta orange",
     "description": "33cl",
     "price": 2.0,
@@ -2628,7 +2628,7 @@
   },
   {
     "baseId": 60109,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Red Bull",
     "description": "25cl",
     "price": 2.5,
@@ -2645,7 +2645,7 @@
   },
   {
     "baseId": 60110,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Monster energy",
     "description": "50cl",
     "price": 3.0,
@@ -2662,7 +2662,7 @@
   },
   {
     "baseId": 60111,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Fanta orange",
     "description": "1,5L",
     "price": 4.0,
@@ -2679,13 +2679,13 @@
   },
   {
     "baseId": 60112,
-    "category": "Boissons sans alcool",
-    "name": "orangina",
-    "description": "33cL",
+    "category": "Boissons sasn alcool",
+    "name": "Cola-cola",
+    "description": "1,25L",
     "price": 4.0,
     "weight": 150,
     "selected": false,
-    "img": "http://15.188.50.31/backend/img/boissons/orangina.png",
+    "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png",
     "options": [],
     "tags": [],
     "ingredients": [],
@@ -2696,7 +2696,7 @@
   },
   {
     "baseId": 60113,
-    "category": "Boissons sans alcool",
+    "category": "Boissons sasn alcool",
     "name": "Ice-tea pêche",
     "description": "1,5L",
     "price": 4.0,

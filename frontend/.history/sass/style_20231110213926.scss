@@ -1,28 +1,9 @@
-/*  style.scss start */
-@import 'mixins';
 @import 'body';
 @import 'header';
-
-#menu {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .menu-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-  }
-}
-
 #menu-items {
   display: flex;
   flex-wrap: wrap;
   gap: 15px; // 卡片之间的间距
-  justify-content: center;
 }
 
 .menu-item {
@@ -32,7 +13,7 @@
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); // 添加阴影
   transition: transform 0.3s; // 平滑过渡效果
-  width: 174px; // 固定宽度
+  width: 250px; // 固定宽度
 
   &:hover {
     transform: scale(1.05); // 鼠标悬停时轻微放大
@@ -69,7 +50,7 @@
 
 .category-buttons {
   display: flex;
-  width: 100%;
+  justify-content: center;
   margin-bottom: 20px;
   overflow-x: auto; // 横向滚动
   &::-webkit-scrollbar {
@@ -94,4 +75,3 @@
     }
   }
 }
-/*  style.scss end */

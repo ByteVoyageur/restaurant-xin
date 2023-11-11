@@ -1,7 +1,6 @@
-/*  style.scss start */
-@import 'mixins';
-@import 'body';
-@import 'header';
+@import '_body';
+@import '_header';
+@import '_mixins';
 
 #menu {
   margin-top: 20px;
@@ -69,7 +68,7 @@
 
 .category-buttons {
   display: flex;
-  width: 100%;
+  justify-content: center;
   margin-bottom: 20px;
   overflow-x: auto; // 横向滚动
   &::-webkit-scrollbar {
@@ -94,4 +93,3 @@
     }
   }
 }
-/*  style.scss end */

@@ -9,7 +9,10 @@ export function fetchMenuData() {
       }
       return response.json()
     })
-
+    .then((data) => {
+      localStorage.setItem('menuData', JSON.stringify(data))
+      return data
+    })
     .catch((error) => {
       console.error(
         'There has been a problem with your fetch operation:',

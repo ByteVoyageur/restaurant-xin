@@ -70,6 +70,7 @@
 .category-buttons {
   display: flex;
   width: 100%;
+  justify-content: center;
   margin-bottom: 20px;
   overflow-x: auto; // 横向滚动
   &::-webkit-scrollbar {

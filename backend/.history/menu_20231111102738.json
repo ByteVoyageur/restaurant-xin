@@ -2498,7 +2498,7 @@
     "price": 1.5,
     "weight": 150,
     "selected": false,
-    "img": "http://15.188.50.31/backend/img/boissons/sirop.png",
+    "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png",
     "options": [],
     "tags": [],
     "ingredients": ["menthe", "grenadine", "fraise"],

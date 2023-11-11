@@ -911,7 +911,7 @@
   },
   {
     "baseId": 40201,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Anchoyade",
     "description": "",
     "sizes": {
@@ -941,7 +941,7 @@
 
   {
     "baseId": 40202,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Calabraise",
     "description": "",
     "sizes": {
@@ -970,7 +970,7 @@
   },
   {
     "baseId": 40203,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "4 saisons",
     "description": "",
     "sizes": {
@@ -1007,7 +1007,7 @@
   },
   {
     "baseId": 40204,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Royale",
     "description": "",
     "sizes": {
@@ -1036,7 +1036,7 @@
   },
   {
     "baseId": 40205,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Milanaise",
     "description": "",
     "sizes": {
@@ -1072,7 +1072,7 @@
   },
   {
     "baseId": 40206,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "ACalzone",
     "description": "chausson",
     "sizes": {
@@ -1101,7 +1101,7 @@
   },
   {
     "baseId": 40208,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Cantal",
     "description": "",
     "sizes": {
@@ -1137,7 +1137,7 @@
   },
   {
     "baseId": 40209,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Catalane",
     "description": "",
     "sizes": {
@@ -1166,7 +1166,7 @@
   },
   {
     "baseId": 40210,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Savoyarde",
     "description": "",
     "sizes": {
@@ -1201,7 +1201,7 @@
   },
   {
     "baseId": 40211,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Asiatique",
     "description": "",
     "sizes": {
@@ -1237,7 +1237,7 @@
   },
   {
     "baseId": 40212,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Végétarienne",
     "description": "",
     "sizes": {
@@ -1272,7 +1272,7 @@
   },
   {
     "baseId": 40213,
-    "category": "Pizzas délicieuses",
+    "category": "Délicieuses",
     "name": "Capri",
     "description": "",
     "sizes": {
@@ -2498,7 +2498,7 @@
     "price": 1.5,
     "weight": 150,
     "selected": false,
-    "img": "http://15.188.50.31/backend/img/boissons/sirop.png",
+    "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png",
     "options": [],
     "tags": [],
     "ingredients": ["menthe", "grenadine", "fraise"],

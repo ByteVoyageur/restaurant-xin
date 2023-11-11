@@ -1,6 +1,7 @@
 console.log('script.js loaded')
 import { fetchMenuData } from './assets/js/api.js'
 import { displayMenuItems } from './assets/js/carte.js'
+import { createCategoryButtons } from './assets/js/buttons.js'
 
 // 从本地存储或服务器加载菜单数据
 function loadMenuData() {
