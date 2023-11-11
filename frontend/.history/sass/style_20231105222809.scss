@@ -1,0 +1,84 @@
+@import 'body';
+@import 'header';
+/* Category buttons styles */
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; // Enable horizontal scrolling on small screens
+  -webkit-overflow-scrolling: touch; // Momentum scrolling on iOS
+  gap: 5px;
+  margin-bottom: 20px; // Updated to match the provided code
+  padding: 5px 0; // Padding to prevent buttons from touching the edges
+  &::-webkit-scrollbar {
+    // Hide the scrollbar
+    display: none;
+  }
+
+  .category-btn {
+    flex: 0 0 auto; // Ensure buttons do not stretch
+    background-color: #f0f0f0;
+    background-image: linear-gradient(
+      to bottom right,
+      #fdfbfb,
+      #ebedee
+    ); // Subtle gradient
+    border: 1px solid #dcdcdc; // Slight border
+    border-radius: 25px; // Rounded corners
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold; // Make the text a bit bolder
+    text-transform: uppercase; // Uppercase text for style
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Soft shadow for depth
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; // Smooth transitions for hover effects
+
+    &:hover {
+      background-color: #e2e2e2;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); // Larger shadow on hover for a "lifting" effect
+      transform: translateY(-2px); // Slight raise on hover
+    }
+
+    &:active {
+      transform: translateY(1px); // Slight press-down effect on click
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Deeper shadow on click
+    }
+  }
+}
+#menu-items {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(120px, 1fr)
+  ); // Creates a responsive grid layout
+  gap: 20px; // Space between grid items
+  padding: 20px; // Padding around the grid container
+
+  .menu-item {
+    border: 1px solid #ddd; // Border for each menu item
+    border-radius: 8px; // Rounded corners
+    padding: 15px; // Padding inside each menu item
+    background-color: white; // Background color for the menu item
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+    transition: box-shadow 0.3s, transform 0.3s; // Smooth transition for hover effects
+
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); // Enhanced shadow on hover
+      transform: translateY(-5px); // Slight raise on hover
+    }
+
+    h3 {
+      color: #333;
+      margin-bottom: 10px; // Space under the title
+    }
+
+    p {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    span {
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}

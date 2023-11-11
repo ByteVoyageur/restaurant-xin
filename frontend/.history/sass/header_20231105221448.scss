@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+/* Main content styles */
+main {
+  padding: 1em;
+}
+
+/* Category buttons styles */
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; // Enable horizontal scrolling on small screens
+  -webkit-overflow-scrolling: touch; // Momentum scrolling on iOS
+  gap: 5px;
+  margin-bottom: 20px; // Updated to match the provided code
+
+  .category-btn {
+    flex: 0 0 auto; // Ensure buttons do not stretch
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
+
+/* Menu items styles */
+#menu-items {
+  display: none; /* Default is hidden, shown when category is selected */
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    h3 {
+      margin: 0;
+      color: #333;
+    }
+
+    p {
+      font-size: 0.9em;
+      margin: 5px 0;
+    }
+
+    span {
+      display: block;
+      margin-top: 5px;
+    }
+  }
+}
+
+/* Shopping cart styles */
+#shopping-cart {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%; /* Full width on mobile */
+  background-color: white;
+  border-top: 1px solid #ccc;
+  padding: 1em;
+  display: none; /* Default is hidden, shown when user wants to see the cart */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  border-top: 1px solid #ccc;
+  margin-top: 1em;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) {
+  /* Adjustments for larger screens */
+  .category-buttons {
+    justify-content: center;
+    overflow-x: visible; // Disable horizontal scrolling on larger screens
+  }
+
+  #shopping-cart {
+    width: auto; /* Adjust width for larger screens */
+    position: static;
+  }
+}
+
+.category-buttons {
+  display: flex; // Use flexbox for layout
+  flex-wrap: nowrap; // Prevent wrapping of items
+  overflow-x: auto; // Allow horizontal scrolling
+  -webkit-overflow-scrolling: touch; // Enable momentum scrolling on iOS
+  gap: 10px; // Space between buttons
+
+  .category-btn {
+    flex: 0 0 auto; // Don't grow, don't shrink, and base the size on the width property
+    padding: 10px 20px; // Padding inside the buttons
+    font-size: 16px; // Text size inside the buttons
+    background-color: #f2f2f2; // Background color of the buttons
+    border: 1px solid #ddd; // Border color of the buttons
+    border-radius: 5px; // Rounded corners for the buttons
+
+    &:hover {
+      background-color: #e7e7e7; // Slightly darker background on hover
+    }
+  }
+
+  // Add a media query for larger screens if needed
+  @media (min-width: 768px) {
+    justify-content: center; // Center the buttons on larger screens
+  }
+}
