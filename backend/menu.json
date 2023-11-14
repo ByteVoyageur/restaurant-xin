@@ -208,36 +208,7 @@
     "valid": true,
     "deliveble": true
   },
-  {
-    "baseId": 40108,
-    "category": "Pizzas classiques",
-    "name": "Jambon",
-    "description": "",
-    "sizes": {
-      "petite": {
-        "id": 42108,
-        "price": 9,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 41108,
-        "price": 11,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/pizzas/jambon-grande.png"
-      }
-    },
-    "options": [],
-    "tags": [],
-    "ingredients": ["tomate", "poulet", "champignons", "fromage"],
-    "after": [],
-    "allergens": [],
-    "quantity": 1,
-    "valid": true,
-    "deliveble": true
-  },
+
   {
     "baseId": 40109,
     "category": "Pizzas classiques",
@@ -331,7 +302,7 @@
   {
     "baseId": 40112,
     "category": "Pizzas classiques",
-    "name": "Jambon",
+    "name": "Chorizo",
     "description": "",
     "sizes": {
       "petite": {
@@ -361,7 +332,7 @@
   {
     "baseId": 40113,
     "category": "Pizzas classiques",
-    "name": "Jambon",
+    "name": "Indienne",
     "description": "",
     "sizes": {
       "petite": {
@@ -459,7 +430,7 @@
         "price": 9.5,
         "weight": 150,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/4saisons-petite.png"
       },
       "grande": {
         "id": 41203,
@@ -504,7 +475,7 @@
         "price": 12,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/royale-grande.png"
       }
     },
     "options": [],
@@ -741,7 +712,7 @@
         "price": 12,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/vegetarienne-grande.png"
       }
     },
     "options": [],
@@ -1102,7 +1073,7 @@
   {
     "baseId": 40310,
     "category": "Pizzas speciales",
-    "name": "",
+    "name": "Végétarienne",
     "description": "",
     "sizes": {
       "petite": {
@@ -1110,14 +1081,14 @@
         "price": 10.5,
         "weight": 150,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/pizzas/fruits-de-mer-petite.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/salade-chevre-petite.png"
       },
       "grande": {
         "id": 41310,
         "price": 13,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/pizzas/reine-grande.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/vegetarienne-grande.png"
       }
     },
     "options": [],
@@ -1147,7 +1118,7 @@
         "price": 14,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/valentina-grande.png"
       }
     },
     "options": [],
@@ -1220,7 +1191,7 @@
     "options": [],
     "tags": [],
     "ingredients": ["tomate", "poulet", "cantal", "fromage"],
-    "after": ["bloc de foi gras"],
+    "after": ["bloc de foie gras"],
     "allergens": [],
     "quantity": 1,
     "valid": true,
@@ -1334,14 +1305,14 @@
         "price": 11.5,
         "weight": 150,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/pizzas/fruits-de-mer-petite.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/salade-chevre-petite.png"
       },
       "grande": {
         "id": 41407,
         "price": 14,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/pizzas/reine-grande.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/vegetarienne-grande.png"
       }
     },
     "options": [],
@@ -1371,7 +1342,7 @@
         "price": 14,
         "weight": 250,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/pizzas/gold-grande.png"
       }
     },
     "options": [],
@@ -1613,7 +1584,7 @@
         "price": 6.5,
         "weight": 150,
         "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
+        "img": "http://15.188.50.31/backend/img/entrees/salade-chevre-petite.png"
       },
       "grande": {
         "id": 11004,

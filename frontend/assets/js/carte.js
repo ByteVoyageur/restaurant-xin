@@ -1,4 +1,6 @@
 //carte.js
+import { addToCart } from './shopping.js'
+
 console.log('carte.js loaded')
 export function displayMenuItems(menuData, category) {
   console.log('menuData', menuData)
@@ -147,7 +149,7 @@ export function displayMenuItems(menuData, category) {
       addToCartBtn.textContent = 'Ajouter au panier'
       addToCartBtn.className = 'add-to-cart-btn'
       addToCartBtn.onclick = function () {
-        // 这里添加点击按钮时的逻辑，比如添加物品到购物车
+        addToCart(item) // 这里添加点击按钮时的逻辑，比如添加物品到购物车
         console.log('Added', item.name, 'to cart')
       }
       textContainer.appendChild(addToCartBtn)
