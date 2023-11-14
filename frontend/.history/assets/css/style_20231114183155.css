@@ -1,0 +1,225 @@
+/*  style.scss start */
+/*  _mixins.scss start */
+/*  _mixins.scss end */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+body .main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .main-container main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-form {
+  width: 100%;
+  height: 60px;
+  gap: 15px;
+  background-color: #5f9ea0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+}
+.search-form .location-icon {
+  margin-right: 10px;
+  color: #fd7e14;
+}
+.search-form .search-input {
+  font-size: 1.1em;
+  font-weight: bold;
+  width: auto;
+  max-width: 15ch;
+  background-color: white;
+  border: 1px solid #fd7e14;
+  padding: 5px 10px;
+}
+.search-form .search-input::placeholder {
+  color: #fea116;
+  font-size: 0.7em;
+}
+.search-form .search-input:focus {
+  outline: none;
+  border-color: #fd7e14;
+  box-shadow: 0 0 5px #fd7e14;
+}
+.search-form .search-input:hover {
+  border-color: #fd7e14;
+}
+.search-form .search-button {
+  padding: 10px 20px;
+  border: 1px solid #fd7e14;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  background-color: #fd7e14;
+}
+
+#menu {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#menu .menu-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+#menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.menu-item {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  width: 174px;
+}
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-image-container {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.menu-item .menu-item-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 150px;
+}
+
+.menu-item-tags {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.fa-seedling {
+  color: #28a745;
+  font-size: 20px;
+}
+
+.menu-item-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.price-and-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.price-and-icon-container :first-child {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.price-and-icon-container :second-child {
+  display: flex;
+  align-items: baseline;
+}
+
+.menu-item .menu-item-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+.menu-item .menu-item-description {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #666;
+}
+.menu-item .sizesDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.category-buttons {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 15px;
+  overflow-x: auto;
+}
+.category-buttons::-webkit-scrollbar {
+  display: none;
+}
+.category-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #fd7e14;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fd7e14;
+  font-size: 1.1em;
+}
+.category-buttons button:hover,
+.category-buttons button.active {
+  background-color: #fd7e14;
+  color: white;
+}
+
+/*  style.scss end */

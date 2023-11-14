@@ -1,0 +1,85 @@
+/*  style.scss start */
+@import 'mixins';
+@import 'body';
+@import 'header';
+
+#menu {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .menu-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+#menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+
+  .menu-item-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 150px;
+  }
+
+  .menu-item-name {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .menu-item-description {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .sizesDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+.category-buttons {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 将此选择器移出嵌套
+.category-buttons button.category-btn {
+  padding: 0.25rem 0.5rem; // 减小内边距
+  font-size: 0.8rem; // 减小字体大小
+  margin-right: 5px; // 减小按钮间距
+  // 应用Bootstrap的按钮样式
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+/*  style.scss end */
